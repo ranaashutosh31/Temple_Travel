@@ -1,0 +1,112 @@
+body html{
+    height: 100vh !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: rgb(0, 0, 0);
+}
+.t{
+    font-size: 31px !important;
+    padding: 0 !important;
+    padding-left: 14px !important;
+}
+p{
+    margin-bottom: 0 !important;
+    text-align: center;
+    padding: 40px;
+    font-family: 'caveat','Franklin Gothic Medium';
+    font-weight: 800 ;
+    font-size: 22px;
+    color: rgb(105, 0, 0);
+}
+.container-fluid{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+h2{
+    text-align: center;
+    padding-top: 40px;
+    font-family: 'cinzel','lobster','Franklin Gothic Medium';
+    font-weight: 1000 !important;
+    font-size: 50px !important;
+    color: rgb(0, 66, 11);
+    text-shadow: 4px 4px 14px black !important;
+
+}
+.bg-gradient{
+    background: linear-gradient(rgba(255, 255, 255, 0.87),rgb(0, 0, 0));
+}
+.img1{
+    background-image: url("prem-mandir.jpg");
+    height: 100vh;
+}
+.img2{
+    background-image: url("cambodia.jpg");
+}
+.img3{
+    background-image: url("prambanan-indonesia.jpg");
+}
+.img4{
+    background-image: url("thailand.jpg");
+    min-height: 400px;
+}
+.img1, .img2,.img3,.img4{
+    position: relative;
+    opacity: 0.8 !important;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.img2,.img3,.img4{
+    min-height: 50vh;
+}
+.section{
+    text-align: center;
+    padding: 50px 80px;
+}
+.section-l{
+    background: linear-gradient(rgba(116, 214, 238, 0.87),rgb(247, 138, 138));
+    color:rgb(148, 147, 147);
+}
+.section-d{
+    background: linear-gradient(rgba(247, 138, 138, 0.87),rgb(23, 82, 32));
+    color: rgb(208, 209, 209);
+}
+.text{
+    position: absolute;
+    top: 22%;
+    width: 50% !important; 
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    font-weight: 500;
+    display: block !important;
+}
+.border{
+    color: white;
+    background: linear-gradient(rgba(27, 112, 45, 0.87),rgb(185, 22, 22));
+    text-align: center;
+    padding: 13px;
+    font-family: 'arizonia','Franklin Gothic Medium';
+    font-weight: 400 !important;
+    font-size: 40px !important;
+    text-shadow: 8px 8px 8px black,8px 8px 8px black,8px 8px 8px black !important;
+    display: block !important;
+}
+.textp{
+    position: absolute;
+    top: 50% ;
+    width: 50% !important;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
